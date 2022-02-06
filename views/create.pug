@@ -1,0 +1,17 @@
+div.create-container
+    form(action="/superheros", method="post")
+        input(type="text", placeholder="superhero name", required="required", name="superhero")
+        input(type="text", placeholder="superhero description", required="required", name="description")
+        br
+        input(type='checkbox' name='weather' checked value = 'pring')
+        span Spring 
+        input(type='checkbox' name='weather' value = 'Summer')
+        span Summer 
+        br
+        input(type = 'radio' name= 'color' checked value = 'Red')
+        span Red
+        input(type = 'radio' name= 'color' checked value = 'Blue')
+        span Blue 
+        input(type = 'radio' name= 'color' checked value = 'Green')
+        span Green
+        button Create
